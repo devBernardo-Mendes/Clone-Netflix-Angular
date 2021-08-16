@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'netflix';
+  title = 'netflix'; //  {{title}} for render variables 
 }
+
+// for created variables FOR in angular is necessary ngif="code js"
